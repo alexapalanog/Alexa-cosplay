@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 
 const BackgroundAnimation = () => (
@@ -25,7 +24,7 @@ const SocialLinks = () => (
     </ul>
 );
 
-const Sidebar = ({ isOpen, toggleMenu }) => {
+const Sidebar = ({ isOpen, toggleMenu }: SidebarProps) => {
     return (
         <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
           <div className="sidebar-profile-pic">
