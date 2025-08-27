@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; // <-- FIX 1: 'React' import removed
 import { createRoot } from 'react-dom/client';
 
 const BackgroundAnimation = () => (
@@ -25,7 +25,14 @@ const SocialLinks = () => (
     </ul>
 );
 
-const Sidebar = ({ isOpen, toggleMenu }) => {
+// FIX 2: Define the types for the Sidebar's props
+type SidebarProps = {
+  isOpen: boolean;
+  toggleMenu: () => void;
+};
+
+// Apply the SidebarProps type
+const Sidebar = ({ isOpen, toggleMenu }: SidebarProps) => {
     return (
         <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
           <div className="sidebar-profile-pic">
