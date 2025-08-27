@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 
 const BackgroundAnimation = () => (
@@ -24,7 +25,7 @@ const SocialLinks = () => (
     </ul>
 );
 
-const Sidebar = ({ isOpen, toggleMenu }: SidebarProps) => {
+const Sidebar = ({ isOpen, toggleMenu }) => {
     return (
         <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
           <div className="sidebar-profile-pic">
@@ -161,21 +162,21 @@ const Cosplays = () => (
             </div>
             <div className="cosplay-card c5">
                  <div className="image-placeholder">
-                    <img src="/images/ai-2.jpg" alt="Ai Hoshino Cosplay" />
+                    <img src="/images/ai-2.JPG" alt="Ai Hoshino Cosplay" />
                 </div>
                 <h4>Ai Hoshino</h4>
                 <p>Oshi No Ko</p>
             </div>
             <div className="cosplay-card c6">
                  <div className="image-placeholder">
-                    <img src="/images/miwa.jpg" alt="Miwa Cosplay" />
+                    <img src="/images/Miwa.jpg" alt="Miwa Cosplay" />
                 </div>
                 <h4>Miwa Kasumi</h4>
                 <p>Jujutsu Kaisen</p>
             </div>
             <div className="cosplay-card c1">
                 <div className="image-placeholder">
-                    <img src="/images/nene.jpg" alt="Nene Cosplay" />
+                    <img src="/images/Nene.JPG" alt="Nene Cosplay" />
                 </div>
                 <h4>Nene Yashiro</h4>
                 <p>Toilet-Bound Hanako-kun</p>
