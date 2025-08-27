@@ -72,7 +72,7 @@ const Introduction = () => (
             <div className="intro-bubble">
                 <h3>HI! I'M ALEXA~❤︎ </h3>
                 <p className="intro-description">
-                    A 21-year-old Pisces and a proud ambivert (INFP-T)!
+                    A 21-year-old Pisces and a proud ambivert (ENFJ-T)!
                     When I'm not bringing characters to life, you can find me in student orgs, coding, editing contents, or just catching up on sleep ᶻ 𝗓 𐰁
                     I'm not much of a coffee drinker ₍^. .^₎⟆ but I'm full of creative energy!
                     I love meeting new people, so I'm super excited you're here. Let's be friends! Shall we? ♡
